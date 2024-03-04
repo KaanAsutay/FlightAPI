@@ -71,20 +71,20 @@ const FlightSchema = new mongoose.Schema({
 
 }, {collection: 'flights', timeStamps: true})
 
-// Mongoose Scheme Middlewares
+// Mongoose Scheme Middleware:
 // https://mongoosejs.com/docs/middleware.html
 // Trigger: Wnen running init:
 
 const dateToLocaleString = require('../helpers/dateToLocaleString')
 
-FlightSchema.pre('init', function(data) {
+FlightSchema.pre('init', function(document) {
     // https://www.w3schools.com/jsref/jsref_tolocalestring.asp
-
-    //    document.departureDateStr =document.departureDate.toLocaleString('tr-tr', { dateStyle: 'full', timeStyle: 'medium' })
-    //    document.arrivalDateStr =document.arrivalDate.toLocaleString('tr-tr', { dateStyle: 'full', timeStyle: 'medium' })
+    
+    // document.departureDateStr = document.departureDate.toLocaleString('tr-tr', { dateStyle: 'full', timeStyle: 'medium' })
+    // document.arrivalDateStr = document.arrivalDate.toLocaleString('tr-tr', { dateStyle: 'full', timeStyle: 'medium' })
     document.departureDateStr = dateToLocaleString(document.departureDate)
     document.arrivalDateStr = dateToLocaleString(document.arrivalDate)
-    document.__v = undefined 
+    document.__v = undefined
 })
 
 
