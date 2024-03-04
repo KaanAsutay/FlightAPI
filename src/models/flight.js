@@ -71,5 +71,14 @@ const FlightSchema = new mongoose.Schema({
 
 }, {collection: 'flights', timeStamps: true})
 
+// Mongoose Scheme Middlewares
+// https://mongoosejs.com/docs/middleware.html
+// Trigger: Wnen running init:
+
+FlightSchema.pre('init', function(data) {
+
+})
+
+
 /* ------------------------------------------------------- */
 module.exports = mongoose.model('Flight', FlightSchema)
