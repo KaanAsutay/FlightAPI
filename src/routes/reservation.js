@@ -6,9 +6,12 @@ const router = require('express').Router()
 /* ------------------------------------------------------- */
 // routes/reservation:
 
+const permissions = require('../middlewares/permissions')
 const reservation = require('../controllers/reservation')
 
 // URL: /reservations
+
+router.use(permissions.isStaffOrAdmin)
 
 router.route('/')
     .get(reservation.list)
