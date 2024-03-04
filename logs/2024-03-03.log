@@ -1,0 +1,4 @@
+::ffff:127.0.0.1 - - [03/Mar/2024:15:26:55 +0000] "GET / HTTP/1.1" 200 86 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [03/Mar/2024:15:27:02 +0000] "GET /users HTTP/1.1" 200 986 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [03/Mar/2024:15:27:55 +0000] "GET /flights HTTP/1.1" 200 777 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [03/Mar/2024:15:30:18 +0000] "POST /auth/login HTTP/1.1" 200 837 "-" "Thunder Client (https://www.thunderclient.com)"

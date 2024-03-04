@@ -1,0 +1,8 @@
+::ffff:127.0.0.1 - - [04/Mar/2024:12:20:41 +0000] "POST /auth/login HTTP/1.1" 200 837 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:12:21:24 +0000] "GET /users HTTP/1.1" 200 986 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:12:22:49 +0000] "GET /flights HTTP/1.1" 200 777 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:12:23:08 +0000] "POST /flights HTTP/1.1" 500 1200 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:12:23:24 +0000] "GET /flights HTTP/1.1" 200 777 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:12:23:59 +0000] "GET /users HTTP/1.1" 200 986 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:12:24:19 +0000] "GET /users HTTP/1.1" 200 986 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:12:24:46 +0000] "GET / HTTP/1.1" 200 86 "-" "Thunder Client (https://www.thunderclient.com)"
