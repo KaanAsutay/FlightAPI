@@ -9,3 +9,8 @@
 ::ffff:127.0.0.1 - - [04/Mar/2024:12:26:05 +0000] "GET / HTTP/1.1" 200 416 "-" "Thunder Client (https://www.thunderclient.com)"
 ::ffff:127.0.0.1 - - [04/Mar/2024:12:26:32 +0000] "GET /passengers HTTP/1.1" 200 364 "-" "Thunder Client (https://www.thunderclient.com)"
 ::ffff:127.0.0.1 - - [04/Mar/2024:12:26:47 +0000] "GET /passengers HTTP/1.1" 200 364 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:20:22:51 +0000] "GET /flights HTTP/1.1" 403 1537 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:20:24:13 +0000] "GET /flights HTTP/1.1" 200 777 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:20:25:49 +0000] "GET /flights HTTP/1.1" 200 777 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:20:26:02 +0000] "GET /flights HTTP/1.1" 200 777 "-" "Thunder Client (https://www.thunderclient.com)"
+::ffff:127.0.0.1 - - [04/Mar/2024:20:26:03 +0000] "GET /flights HTTP/1.1" 200 777 "-" "Thunder Client (https://www.thunderclient.com)"
