@@ -120,6 +120,7 @@ module.exports = {
         }
 
         /* Check ID or OBJECT for passengers */
+        
 
         // Doğrulanmış ID'leri passengers'a aktar:
         req.body.passengers = passengerIds
