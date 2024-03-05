@@ -363,8 +363,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object",
-              "properties": {}
+              "$ref": "#/definitions/Flight"
             }
           }
         ],
@@ -414,8 +413,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object",
-              "properties": {}
+              "$ref": "#/definitions/Flight"
             }
           }
         ],
@@ -478,8 +476,7 @@
             "in": "body",
             "required": true,
             "schema": {
-              "type": "object",
-              "properties": {}
+              "$ref": "#/definitions/Flight"
             }
           }
         ],

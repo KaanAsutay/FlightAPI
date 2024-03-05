@@ -38,11 +38,11 @@ module.exports = {
             #swagger.parameters['body'] = {
                 in: 'body',
                 required: true,
-                schema: {
-                   
-                }
+                schema: { $ref: '#/definitions/Flight' }
             }
         */
+
+        // req.body.createdId = req.user._id
 
         const data = await Flight.create(req.body)
 
@@ -74,9 +74,7 @@ module.exports = {
             #swagger.parameters['body'] = {
                 in: 'body',
                 required: true,
-                schema: {
-                    
-                }
+                schema: { $ref: '#/definitions/Flight' }
             }
         */
 
