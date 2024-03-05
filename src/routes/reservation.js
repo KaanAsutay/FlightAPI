@@ -23,5 +23,7 @@ router.route('/:id')
     .patch(reservation.update)
     .delete(reservation.delete)
 
+router.get('/:id/passengers', reservation.passengers)
+
 /* ------------------------------------------------------- */
 module.exports = router
