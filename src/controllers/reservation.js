@@ -120,7 +120,6 @@ module.exports = {
         }
 
         /* Check ID or OBJECT for passengers */
-        
 
         // Doğrulanmış ID'leri passengers'a aktar:
         req.body.passengers = passengerIds
@@ -189,6 +188,7 @@ module.exports = {
             #swagger.tags = ["Reservations"]
             #swagger.summary = "List Passengers of Reservation"
         */
+       
 
         const data = await Reservation.findOne({ _id: req.params.id })
         // console.log(data.passengers)
