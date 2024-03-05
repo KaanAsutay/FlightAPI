@@ -79,14 +79,13 @@ const dateToLocaleString = require('../helpers/dateToLocaleString')
 
 FlightSchema.pre('init', function(document) {
     // https://www.w3schools.com/jsref/jsref_tolocalestring.asp
-    
+
     // document.departureDateStr = document.departureDate.toLocaleString('tr-tr', { dateStyle: 'full', timeStyle: 'medium' })
     // document.arrivalDateStr = document.arrivalDate.toLocaleString('tr-tr', { dateStyle: 'full', timeStyle: 'medium' })
     document.departureDateStr = dateToLocaleString(document.departureDate)
     document.arrivalDateStr = dateToLocaleString(document.arrivalDate)
     document.__v = undefined
 })
-
 
 /* ------------------------------------------------------- */
 module.exports = mongoose.model('Flight', FlightSchema)
